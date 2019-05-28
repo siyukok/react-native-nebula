@@ -1,6 +1,4 @@
 
-import { NativeModules } from 'react-native';
+import Pako from './libs/util/PakoUtil';
 
-const { RNNebula } = NativeModules;
-
-export default RNNebula;
+export default Pako;
